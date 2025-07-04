@@ -1,0 +1,7 @@
+deployment:
+  imageversion: v1
+  replicas: 2
+hpa:
+  cpuUtilization: 15
+service:
+  type: LoadBalancer
