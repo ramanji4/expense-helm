@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: mysql
-        image: ramanji4/mysql:{{ .Values.deployment.imageVersion }}
+        image: ramanji4/mysql:{{.Values.deployment.imageVersion}}
 
 ---
 
